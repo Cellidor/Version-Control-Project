@@ -33,11 +33,4 @@ public class PlayerHealth : MonoBehaviour {
         gameObject.transform.position = checkPoint;
         health = 100;
     }
-    void OnCollisionEnter(Collision other)
-    {
-        if (other.gameObject.tag == "Spike")
-        {
-            HealthLoss(10);
-        }
-    }
 }
