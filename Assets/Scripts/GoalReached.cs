@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GoalReached : MonoBehaviour {
 
@@ -17,7 +18,7 @@ public class GoalReached : MonoBehaviour {
     {
         if (other.gameObject.tag == "Player")
         {
-            //Do win stuff
+            SceneManager.LoadScene("Assignment_01");
         }
     }
 }
