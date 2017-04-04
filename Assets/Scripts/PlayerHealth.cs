@@ -37,7 +37,7 @@ public class PlayerHealth : MonoBehaviour {
     {
         if (other.gameObject.tag == "Spike")
         {
-            HealthLoss(10);
+            HealthLoss(15);
         }
     }
 }
