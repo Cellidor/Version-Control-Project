@@ -25,7 +25,7 @@ public class PlayerHealth : MonoBehaviour {
 
     void SetCheckpoint(Vector3 location)
     {
-        checkPoint = location;
+
     }
 
     void Respawn()
@@ -33,4 +33,14 @@ public class PlayerHealth : MonoBehaviour {
         gameObject.transform.position = checkPoint;
         health = 100;
     }
+<<<<<<< HEAD
+=======
+    void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag == "Spike")
+        {
+            HealthLoss(15);
+        }
+    }
+>>>>>>> cd87f311500806cb5ed15dda9b862652e6a518d5
 }
