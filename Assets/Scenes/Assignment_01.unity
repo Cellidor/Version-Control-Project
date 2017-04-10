@@ -4039,21 +4039,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 54000014261431654, guid: d065f39adda82f740a103365a03dfbb6,
-        type: 2}
-      propertyPath: m_Constraints
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012238245426, guid: d065f39adda82f740a103365a03dfbb6,
-        type: 2}
-      propertyPath: allowedJumps
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012238245426, guid: d065f39adda82f740a103365a03dfbb6,
-        type: 2}
-      propertyPath: jumpForce
-      value: 28.88
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d065f39adda82f740a103365a03dfbb6, type: 2}
   m_IsPrefabParent: 0

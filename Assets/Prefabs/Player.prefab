@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec23a26ee207774a94dc957e85b4cd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
+  health: 100
   checkPoint: {x: 0, y: 0, z: 0}
 --- !u!114 &114000012238245426
 MonoBehaviour:
@@ -161,6 +161,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e22b5de511a76242bf50f294939ebeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 29.97
+  jumpForce: 28.88
   speed: 2
   allowedJumps: 2
